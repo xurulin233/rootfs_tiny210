@@ -1,0 +1,4 @@
+#!/bin/sh
+mkdir -p /media/udisk
+mount /dev/sda /media/udisk
+

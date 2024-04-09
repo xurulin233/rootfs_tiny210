@@ -1,0 +1,4 @@
+./install.sh ../mini_busybox/
+cp mkyaffs2image ..
+cd ..
+sudo ./mkyaffs2image mini_busybox/ rootfs.yaffs2
