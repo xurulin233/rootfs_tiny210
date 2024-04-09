@@ -1,3 +1,7 @@
+cd basefile
+mkdir {sbin,bin,dev,lib,etc,tmp,sys}
+mkdir sys/class
+cd ..
 ./install.sh ../mini_busybox/
 cp mkyaffs2image ..
 cd ..
